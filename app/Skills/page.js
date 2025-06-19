@@ -13,6 +13,11 @@ export default function Home() {
             </ul>
           </nav>
         </header>
+        <main>
+          <div>
+            <iframe src="Target Resume.pdf"></iframe>
+          </div>
+        </main>
     </div>
   );
 }
