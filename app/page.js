@@ -14,15 +14,21 @@ export default function Home() {
           </nav>
         </header>
         <main>
-          <h1>Hi, I am Matthew Tsui</h1>
-          <p >I enjoy coding, hiking and gaming.</p>
-          <br/>
-          <p>I am currently a student at Simon Fraser University studying computer science. I am very passionate about coding. I enjoy being stuck on a problem and then finally being able to solve it.</p>
-          <br/>
-          <p>During breaks from school, I enjoy spending time outdoors and going on hikes. I've enjoyed many popular hikes, such as Joffre Lake and Stawamus Chief. I plan to do many more hikes in the future.</p>
-          <br/>
-          <p>In my free time, I like to relax by playing games with my friends. We enjoy playing games like Back 4 Blood and Sons of the Forest.</p>
-          <img src="Me_In_Snow.jpg" alt="A picture of me standing in whistler surrounded by snow."/>
+          <h1 className="text-center text-2xl sm:text-3xl md:text-4xl my-4">Hi, I am Matthew Tsui</h1>
+            <div className="flex flex-col ">
+              <div className="justify-baseline grid grid-cols-2">
+                <div className="my-auto mx-auto">
+                  <p className="text-sm sm:text-lg md:text-xl max-w-[600px] mx-auto w-full">I enjoy coding, hiking and gaming.</p>
+                  <br/>
+                  <p className="text-sm sm:text-lg md:text-xl max-w-[600px] mx-auto w-full">I am currently a student at Simon Fraser University studying computer science. I am very passionate about coding. I enjoy being stuck on a problem and then finally being able to solve it.</p>
+                  <br/>
+                  <p className="text-sm sm:text-lg md:text-xl max-w-[600px] mx-auto w-full">During breaks from school, I enjoy spending time outdoors and going on hikes. I've enjoyed many popular hikes, such as Joffre Lake and Stawamus Chief. I plan to do many more hikes in the future.</p>
+                  <br/>
+                  <p className="text-sm sm:text-lg md:text-xl max-w-[600px] mx-auto w-full">In my free time, I like to relax by playing games with my friends. We enjoy playing games like Back 4 Blood and Sons of the Forest.</p>
+                </div>
+                <img className="w-sm justify-end mx-auto my-auto" src="Me_In_Snow.jpg" alt="A picture of me standing in whistler surrounded by snow."/>
+              </div>
+            </div>
         </main>
     </div>
   );
