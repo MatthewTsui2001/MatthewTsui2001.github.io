@@ -7,9 +7,9 @@ export default function Home() {
               <a href="../"><img className="" src="/favicon-32x32.png" alt="The favicon logo for the site the letters MT for my initials"/></a>
             </div>
             <ul className="flex items-center gap-[4vw]">
-              <li className="hover:text-blue-200"><a href="index.html">About</a></li>
-              <li className="hover:text-blue-200"><a href="skills">Skills</a></li>
-              <li className="hover:text-blue-200"><a href="contact.html">Contact</a></li>
+              <li className="hover:text-blue-200"><a href="../">About</a></li>
+              <li className="hover:text-blue-200"><a href="Skills">Skills</a></li>
+              <li className="hover:text-blue-200"><a href="Contact">Contact</a></li>
             </ul>
           </nav>
         </header>
