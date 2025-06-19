@@ -15,6 +15,13 @@ export default function Home() {
         </header>
         <main>
           <h1>Hi, I am Matthew Tsui</h1>
+          <p >I enjoy coding, hiking and gaming.</p>
+          <br/>
+          <p>I am currently a student at Simon Fraser University studying computer science. I am very passionate about coding. I enjoy being stuck on a problem and then finally being able to solve it.</p>
+          <br/>
+          <p>During breaks from school, I enjoy spending time outdoors and going on hikes. I've enjoyed many popular hikes, such as Joffre Lake and Stawamus Chief. I plan to do many more hikes in the future.</p>
+          <br/>
+          <p>In my free time, I like to relax by playing games with my friends. We enjoy playing games like Back 4 Blood and Sons of the Forest.</p>
         </main>
     </div>
   );
