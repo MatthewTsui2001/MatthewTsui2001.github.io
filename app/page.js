@@ -22,6 +22,7 @@ export default function Home() {
           <p>During breaks from school, I enjoy spending time outdoors and going on hikes. I've enjoyed many popular hikes, such as Joffre Lake and Stawamus Chief. I plan to do many more hikes in the future.</p>
           <br/>
           <p>In my free time, I like to relax by playing games with my friends. We enjoy playing games like Back 4 Blood and Sons of the Forest.</p>
+          <img src="Me_In_Snow.jpg" alt="A picture of me standing in whistler surrounded by snow."/>
         </main>
     </div>
   );
