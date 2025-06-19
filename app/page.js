@@ -14,7 +14,8 @@ export default function Home() {
           </nav>
         </header>
         <main className="flex flex-col bg-gradient-to-t from-gray-500 to-white">
-          <h1 className="text-center text-2xl sm:text-3xl md:text-4xl my-4">Hi, I am Matthew Tsui</h1>
+          <div className="justify-between bg-gray-200 py-2 my-5 w-[92%] mx-auto">
+            <h1 className="text-center text-2xl sm:text-3xl md:text-4xl my-4">Hi, I am Matthew Tsui</h1>
             <div className="flex flex-col ">
               <div className="justify-baseline grid grid-cols-2">
                 <div className="my-auto mx-auto">
@@ -29,6 +30,7 @@ export default function Home() {
                 <img className="w-sm justify-end mx-auto my-auto" src="Me_In_Snow.jpg" alt="A picture of me standing in whistler surrounded by snow."/>
               </div>
             </div>
+          </div>
         </main>
     </div>
   );
