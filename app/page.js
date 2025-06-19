@@ -4,7 +4,7 @@ export default function Home() {
         <header className="bg-black text-white">
           <nav className="flex justify-between items-center w-[92%] mx-auto">
             <div>
-              <img className="" src="/favicon-32x32.png" alt="The favicon logo for the site the letters MT for my initials"/>
+              <a href="../"><img className="" src="/favicon-32x32.png" alt="The favicon logo for the site the letters MT for my initials"/></a>
             </div>
             <ul className="flex items-center gap-[4vw]">
               <li className="hover:text-blue-200"><a href="index.html">About</a></li>
