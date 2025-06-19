@@ -13,6 +13,9 @@ export default function Home() {
             </ul>
           </nav>
         </header>
+        <main>
+          <h1>Hi, I am Matthew Tsui</h1>
+        </main>
     </div>
   );
 }
