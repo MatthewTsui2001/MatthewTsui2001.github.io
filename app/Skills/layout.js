@@ -1,8 +1,8 @@
 import "../globals.css";
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Matthew Tsui - Skills",
+  description: "The skills page of the portfolio website that includes a resume",
 };
 
 export default function RootLayout({ children }) {
