@@ -14,7 +14,7 @@ export default function Home() {
           </nav>
         </header>
         <main class="mx-auto my-4 w-full bg-gradient-to-t from-gray-500 to-white">
-          <h1>Resume</h1>
+          <h1 class="text-center text-5xl sm:text-6xl md:text-7xl my-4">Resume</h1>
           <div>
             <iframe src="Target Resume.pdf"></iframe>
           </div>
