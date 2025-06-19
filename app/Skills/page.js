@@ -13,7 +13,8 @@ export default function Home() {
             </ul>
           </nav>
         </header>
-        <main>
+        <main class="mx-auto my-4 w-full bg-gradient-to-t from-gray-500 to-white">
+          <h1>Resume</h1>
           <div>
             <iframe src="Target Resume.pdf"></iframe>
           </div>
