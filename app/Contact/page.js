@@ -13,11 +13,13 @@ export default function Home() {
             </ul>
           </nav>
         </header>
-        <main>
-            <h1>Contact Me</h1>
-            <a href="mailto:matttsui2001@gmail.com" class="hover:opacity-40 hover:scale-3d"><img src="gmail.svg" alt="Gmail logo" class="w-25 h-25"/></a>
-            <a href="https://www.linkedin.com/in/matthewtsui123/" class="hover:opacity-40 hover:scale-3d"><img src="linkedin.svg" alt="Linkedin logo" class="w-25 h-25"/></a>
-            <a href="https://github.com/MatthewTsui2001" class="hover:opacity-40 hover:scale-3d"><img src="github.svg" alt="github logo" class="w-25 h-25"/></a>
+       <main class="flex flex-col  my-5 mx-auto bg-gradient-to-t from-gray-500 to-white">
+            <h1 class="text-center text-5xl sm:text-6xl md:text-7xl my-15">Contact Me:</h1>
+            <div class="bg-gray-200 mx-auto my-15 border-2 border-green-500  px-4 py-2 grid grid-cols-3">
+                <a href="mailto:matttsui2001@gmail.com" class="hover:opacity-40 hover:scale-3d"><img src="gmail.svg" alt="Gmail logo" class="w-25 h-25"/></a>
+                <a href="https://www.linkedin.com/in/matthewtsui123/" class="hover:opacity-40 hover:scale-3d"><img src="linkedin.svg" alt="Linkedin logo" class="w-25 h-25"/></a>
+                <a href="https://github.com/MatthewTsui2001" class="hover:opacity-40 hover:scale-3d"><img src="github.svg" alt="github logo" class="w-25 h-25"/></a>
+            </div>
         </main>
     </div>
   );
