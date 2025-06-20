@@ -13,6 +13,15 @@ export default function Home() {
             </ul>
           </nav>
         </header>
+        <main>
+            <h1>Contact Me</h1>
+            <a href="mailto:matttsui2001@gmail.com"><img src="gmail.svg" alt="Gmail logo"/></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </main>
     </div>
   );
 }
