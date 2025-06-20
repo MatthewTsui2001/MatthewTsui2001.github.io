@@ -34,13 +34,17 @@ export default function Home() {
               <h1 className="text-center text-2xl sm:text-3xl md:text-4xl my-4">
                 List of Hikes I've Done:
               </h1>
-              <ul className="text-center">
-                <li><a href="https://www.alltrails.com/trail/canada/british-columbia/joffre-lakes">Joffree Lake</a></li>
-                <li><a href="https://www.alltrails.com/trail/canada/british-columbia/garibaldi-lake--2">Garibaldi Lake</a></li>
-                <li><a href="https://www.alltrails.com/trail/canada/british-columbia/grouse-grind-trail">Grouse Grind</a></li>
-                <li><a href="https://www.alltrails.com/trail/canada/british-columbia/stawamus-chief-first-peak">Stawamus Cheif First Peak</a></li>
-                <li><a href="https://www.alltrails.com/trail/canada/british-columbia/whistler-train-wreck-via-sea-to-sky-and-train-wreck-trails">Whistler Train Wreck via Sea to Sky and Train Wreck Trails</a></li>
-              </ul>
+              <div className="grid grid-cols-2">
+                <ul className="text-center">
+                  <li><a href="https://www.alltrails.com/trail/canada/british-columbia/joffre-lakes">Joffree Lake</a></li>
+                  <li><a href="https://www.alltrails.com/trail/canada/british-columbia/garibaldi-lake--2">Garibaldi Lake</a></li>
+                  <li><a href="https://www.alltrails.com/trail/canada/british-columbia/grouse-grind-trail">Grouse Grind</a></li>
+                  <li><a href="https://www.alltrails.com/trail/canada/british-columbia/stawamus-chief-first-peak">Stawamus Cheif First Peak</a></li>
+                  <li><a href="https://www.alltrails.com/trail/canada/british-columbia/whistler-train-wreck-via-sea-to-sky-and-train-wreck-trails">Whistler Train Wreck via Sea to Sky and Train Wreck Trails</a></li>
+                </ul>
+                <img src="MountainTrip.jpg" alt="A picture from a mountain view onto the whistler highway next to a clean blue lake" className="w-40 h-40"></img>
+              </div>
+              
             </div>
           </div>
         </main>
