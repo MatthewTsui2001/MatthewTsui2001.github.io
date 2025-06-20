@@ -36,11 +36,11 @@ export default function Home() {
               </h1>
               <div className="grid grid-cols-2">
                 <ul className="text-center">
-                  <li className="hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/joffre-lakes">Joffree Lake</a></li>
-                  <li className="hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/garibaldi-lake--2">Garibaldi Lake</a></li>
-                  <li className="hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/grouse-grind-trail">Grouse Grind</a></li>
-                  <li className="hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/stawamus-chief-first-peak">Stawamus Cheif First Peak</a></li>
-                  <li className="hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/whistler-train-wreck-via-sea-to-sky-and-train-wreck-trails">Whistler Train Wreck via Sea to Sky and Train Wreck Trails</a></li>
+                  <li className="text-blue-300 underline hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/joffre-lakes">Joffree Lake</a></li>
+                  <li className="text-blue-300 underline hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/garibaldi-lake--2">Garibaldi Lake</a></li>
+                  <li className="text-blue-300 underline hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/grouse-grind-trail">Grouse Grind</a></li>
+                  <li className="text-blue-300 underline hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/stawamus-chief-first-peak">Stawamus Cheif First Peak</a></li>
+                  <li className="text-blue-300 underline hover:text-blue-400"><a href="https://www.alltrails.com/trail/canada/british-columbia/whistler-train-wreck-via-sea-to-sky-and-train-wreck-trails">Whistler Train Wreck via Sea to Sky and Train Wreck Trails</a></li>
                 </ul>
                 <img src="MountainTrip.jpg" alt="A picture from a mountain view onto the whistler highway next to a clean blue lake" className="w-40 h-40"></img>
               </div>
