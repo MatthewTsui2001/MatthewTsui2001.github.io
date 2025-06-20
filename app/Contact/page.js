@@ -16,6 +16,7 @@ export default function Home() {
         <main>
             <h1>Contact Me</h1>
             <a href="mailto:matttsui2001@gmail.com" class="hover:opacity-40 hover:scale-3d"><img src="gmail.svg" alt="Gmail logo" class="w-25 h-25"/></a>
+            <a href="https://www.linkedin.com/in/matthewtsui123/"> <img src="linkedin.svg" alt="The Linkedin Logo"></img></a>
         </main>
     </div>
   );
